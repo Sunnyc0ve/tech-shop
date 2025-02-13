@@ -1,0 +1,163 @@
+.TrandingProducts-header {
+    color: #fff;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 1;
+    letter-spacing: -1px;
+
+    margin-bottom: 40px;
+}
+
+.TrandingProduct-card {
+    background-color: #fff;
+    height: 630px;
+    width: 260px;
+    border-radius: 20px;
+}
+
+
+.TrandingProduct-image {
+    height: 260px;
+    width: 260px;
+    background: url('../img/tranding_products/tranding_product.png');
+
+    display: flex;
+    justify-content: end;
+    align-items: start;
+
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+
+.TrandingProduct-more, .TrandingProduct-buy {
+
+    background-color: #110E17;
+    gap: 38px;
+    width: 200px;
+    justify-content: space-between;
+
+}
+
+.TrandingProduct-buy {
+    background-color: #6E49BD;
+}
+
+.TrandingProduct-price_block {
+    display: flex;
+    gap: 12px;
+}
+
+.TrandingProduct-price {
+    color: #110E17;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.TrandingProduct-old-price {
+    color: #999;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1;
+
+    text-decoration: line-through;
+}
+
+.TrandingProduct-name {
+    color: #110E17;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.TrandingProduct-title-price {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    align-self: self-start;
+    padding-left: 30px;
+}
+
+.TrandingProduct-color-header {
+    color: #110E17;
+    font-size: 14px;
+    line-height: 1.55;
+    font-weight: 400;
+}
+
+.TrandingProduct-color-element {
+    width: 26px;
+    aspect-ratio: 1;
+    border-radius: 13px;
+    border: 1px solid #DDD;
+    background-color: #FFF;
+}
+
+.TrandingProduct-color {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    align-self: self-start;
+    padding-left: 30px;
+}
+.TrandingProduct-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 40px;
+    margin-bottom: 0px;
+}
+
+.TrandingProduct-buttons {
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.TrandingProducts__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 40px;
+
+    margin-bottom: 60px;
+
+}
+
+.TrandingProducts {
+    margin-bottom: 60px;
+}
+
+.page {
+    color: #999;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 1;
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.active {
+
+    color: #f2f2f2;
+    border-radius: 100px;
+    border: 1px solid #F2F2F2;
+
+}
+
+.TrandingProductsPages-sections {
+    display: flex;
+    gap: 7px;
+
+    justify-self: center;
+
+    margin-bottom: 80px;
+}
