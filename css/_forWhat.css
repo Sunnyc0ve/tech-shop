@@ -1,0 +1,55 @@
+.forWhat p {
+
+    color: white;
+    font-family: 'Coolvetica', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 1;
+    font-style: normal;
+
+}
+
+.forWhat__text-block {
+
+    max-width: 271px;
+    text-align: center;
+
+}
+
+.work {
+    background: url('../img/forWhat/work.png');
+}
+
+.u {
+    background: url('../img/forWhat/u.png');
+}
+
+.music {
+    background: url('../img/forWhat/music.png');
+}
+
+.healthy {
+    background: url('../img/forWhat/healthy.png');
+}
+
+.forBlock {
+    height: 500px;
+    width: 570px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding-bottom: 26px;
+}
+
+.forWhat__inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.forWhat {
+    margin-bottom: 80px;
+}

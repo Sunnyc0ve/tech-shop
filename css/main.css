@@ -273,6 +273,8 @@ l{
     align-items: center;
     padding-left: 30px;
 
+    margin-bottom: 80px;
+
 }
 
 .Installment__inner {
@@ -299,17 +301,5 @@ l{
     filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(96deg) brightness(101%) contrast(101%);
 }
 
-/* ФУТЕР */
-footer{
-    background: rgba(23, 23, 23, 1);
-    display: flex;
-    justify-content: center;
-}
 
-.FooterContainer{
-    width: 1160px;
-    display: flex;
-    justify-content: space-between;
-    padding: 60px 0px 50px 0px;
-}
 
