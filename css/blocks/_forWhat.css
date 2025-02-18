@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .forWhat p {
 
     color: white;
@@ -35,110 +34,25 @@
 }
 
 .work {
-    background: url('/img/forWhat/work.png');
-}
-
-.u {
-    background: url('/img/forWhat/u.png');
-}
-
-.music {
-    background: url('/img/forWhat/music.png');
-}
-
-.healthy {
-    background: url('/img/forWhat/healthy.png');
-}
-
-.forBlock {
-    height: 500px;
-    width: 570px;
-    border-radius: 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-    padding-bottom: 26px;
-}
-
-.forWhat__inner {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-}
-
-.forWhat {
-    margin-bottom: 80px;
-}
-
-@media (max-width: 1200px) {
-    .forBlock  {
-        border-radius: 12px;
-        width: 496px;
-    }
-    .forWhat__inner {
-        grid-gap: 10px;
-    }
-    .forWhat p {
-        font-size: 22px;
-    }
-=======
-.forWhat p {
-
-    color: white;
-    font-family: 'Coolvetica', sans-serif;
-    font-size: 26px;
-    font-weight: 400;
-    line-height: 1;
-    font-style: normal;
-    text-align: center;
-
-}
-
-.forWhat__text-block {
-
-    /* max-width: 271px; */
-    text-align: center;
-
-}
-
-.forHealthy-text {
-    max-width: 230px;
-}
-
-.forWork-text {
-    max-width: 271px;
-}
-
-.forMusic-text {
-    max-width: 230px;
-}
-
-.forU-text {
-    max-width: 262px;
-}
-
-.work {
-    background: url('/img/forWhat/work.png');
+    background: url('../../img/forWhat/work.png');
     background-position: center;
     background-size: cover;
 }
 
 .u {
-    background: url('/img/forWhat/u.png');
+    background: url('../../img/forWhat/u.png');
     background-position: center;
     background-size: cover;
 }
 
 .music {
-    background: url('/img/forWhat/music.png');
+    background: url('../../img/forWhat/music.png');
     background-position: center;
     background-size: cover;
 }
 
 .healthy {
-    background: url('/img/forWhat/healthy.png');
+    background: url('../../img/forWhat/healthy.png');
     background-position: center;
     background-size: cover;
 }
@@ -197,5 +111,4 @@
         width: 360px;
         aspect-ratio: 1;
     }
->>>>>>> 9574b8d (название коммита)
 }
