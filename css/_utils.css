@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 @media (max-width: 1200px) {
     .hidden-mobile { display: none; }
+=======
+@media (max-width: 1200px) {
+    .hidden-mobile { display: none; }
+>>>>>>> 9574b8d (название коммита)
 }

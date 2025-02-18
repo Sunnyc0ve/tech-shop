@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header{
     display: flex;
     flex-direction: column;
@@ -73,3 +74,84 @@ l{
     right: -15px;
     top:-6px;
 }
+=======
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+header > div{
+    width: 1130px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+header ul{
+    display: flex;
+    gap:20px;
+}
+
+header nav a{
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.30);
+}
+
+.HeaderContact{
+    display: flex;
+    align-items: center;
+    gap:27px;
+}
+
+.HeaderContact > *{
+    color:#fff;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.HeaderContainer-2 ul a{
+    font-size: 14px;
+    color:#fff;
+}
+
+.HeaderContainer-2 > div{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+
+l{
+    width: 1px;
+    height: 100%;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.HeaderButton{
+    position: relative;
+}
+
+.HeaderButton div{
+    background: #6649BD;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    position: absolute;
+    font-size: 10px;
+    color:#fff;
+    right: -15px;
+    top:-6px;
+}
+
+/* header {
+    display: none;
+} */
+>>>>>>> 9574b8d (название коммита)

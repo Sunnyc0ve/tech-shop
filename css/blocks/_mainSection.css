@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .MainSection{
     background: url("/img/Banner.png");
     background-position: center;
@@ -55,3 +56,74 @@
     margin: 23px 0px 0px 0px;
     font-size: 14px;
 }
+=======
+.MainSection{
+    background: url("/img/Banner.png");
+    background-position: center;
+    height: 448px;
+    width: 100%;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+.MainSection p{
+    color: #999;
+    font-size: 18px;
+    margin: 10px 0px 30px 0px;
+}
+
+.MainButton{
+    border-radius: 20px;
+    background: #6E49BD;
+    color:#fff;
+    font-size: 14px;
+    padding: 6px 6px 6px 40px;
+    display: flex;
+    align-items: center;
+    gap:15px;
+}
+
+.MainButton div{
+    border-radius: 15px;
+    background: #fff;
+    padding: 15px 13px;
+}
+
+.Banks > div{
+    display: flex;
+    gap:4px;
+}
+
+.Banks > div div{
+    color:#fff;
+    width: 40px;
+    height: 40px;
+    border: 1px solid rgba(242, 242, 242, 0.3);
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Banks p{
+    margin: 23px 0px 0px 0px;
+    font-size: 14px;
+}
+
+@media (max-width: 700px) {
+    .MainSection p {
+        font-size: 16px;
+    }
+    .MainSection h2 {
+        font-size: 28px;
+    }
+    .MainSection {
+        border-radius: 10px;
+    }
+}
+>>>>>>> 9574b8d (название коммита)
