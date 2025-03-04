@@ -1,0 +1,50 @@
+.TradeinBanner {
+    background: url('../../img/banners/tradein.png');
+    height: 180px;
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+
+    user-select: none;
+
+    margin-bottom: 75px;    
+}
+
+.Tradein__inner p {
+    color: #6E49BD;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Tradein__inner h1 {
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+
+    font-family: 'Coolvetica', sans-serif;
+}
+
+.Tradein__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding-left: 30px;
+}
+
+@media (max-width: 1000px) {
+    .TradeinBanner {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 700px) {
+    .Tradein__inner h1 {
+        font-size: 20px;
+    }
+    .TradeinBanner {
+        border-radius: 10px;
+    }
+}

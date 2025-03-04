@@ -1,20 +1,27 @@
 <!DOCTYPE >
 <html lang="ru">
   <head>
-    <title>Магазин техники</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="fonts/stylesheet.css" />
-    <link rel="stylesheet" href="fonts/Coolvetica/stylesheet.css">
+    <title>Магазин техники</title>
 
-    <link rel="stylesheet" href="./css/_categories.css">
-    <link rel="stylesheet" href="./css/_trands.css">
-    <link rel="stylesheet" href="./css/_forWhat.css">
-    <link rel="stylesheet" href="./css/_advantages.css">
-    <link rel="stylesheet" href="./css/_follow.css">
+    <link rel="stylesheet" href="./css/_globals.css">
     <link rel="stylesheet" href="./css/_scrollbar.css">
-    <link rel="stylesheet" href="./css/_footer.css">
+
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+    <link rel="stylesheet" href="./fonts/Coolvetica/stylesheet.css">
+
+    <link rel="stylesheet" href="./css/blocks/_advantages.css">
+    <link rel="stylesheet" href="./css/blocks/_categories.css">
+    <link rel="stylesheet" href="./css/blocks/_follow.css">
+    <link rel="stylesheet" href="./css/blocks/_footer.css">
+    <link rel="stylesheet" href="./css/blocks/_forWhat.css">
+    <link rel="stylesheet" href="./css/blocks/_header.css">
+    <link rel="stylesheet" href="./css/blocks/_installment.css">
+    <link rel="stylesheet" href="./css/blocks/_mainSection.css">
+    <link rel="stylesheet" href="./css/blocks/_tradeIn.css">
+    <link rel="stylesheet" href="./css/blocks/_trands.css">
+    
   </head>
 
   <body>
@@ -51,7 +58,86 @@
           <l></l>
           <button class="HeaderButton"><img src="img/HeaderHeart.svg"><div>0</div></button>
           <l></l>
-          <button class="HeaderButton"><img src="img/HeaderCart.svg"><div>0</div></button>
+          <button class="HeaderButton shoping-cart"><img src="img/HeaderCart.svg"><div>0</div></button>
+        </div>
+      </div>
+      <div class="Header-Menu_mobile">
+        <a href=""><img src="img/Phone.svg"></a>
+        <button class="HeaderButton"><img src="img/HeaderHeart.svg"><div>0</div></button>
+        <button class="HeaderButton shoping-cart"><img src="img/HeaderCart.svg"><div>0</div></button>
+        <button id="MenuButton"><img src="img/menu.svg" /></button>
+        <div class="Header-Menu_mobile_hidden">
+          <div>
+            <button data="m1"><span>О компании</span><img src="img/ArrowRight_2.svg"></button>
+            <div data="m1">
+              <div>
+              <!-- <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> -->
+            </div>
+            </div>
+          </div>
+          <div>
+            <button data="m2"><span>Каталог</span><img src="img/ArrowRight_2.svg"></button>
+            <div data="m2">
+              <div>
+              <!-- <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> -->
+            </div>
+            </div>
+          </div>
+          <div>
+            <button data="m3"><span>Контакты</span><img src="img/ArrowRight_2.svg"></button>
+            <div data="m3">
+              <div>
+              <!-- <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> -->
+            </div>
+            </div>
+          </div>
+          <div>
+            <button data="m4"><span>Сотрудничество</span><img src="img/ArrowRight_2.svg"></button>
+            <div data="m4">
+              <div>
+              <!-- <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> -->
+            </div>
+            </div>
+          </div>
+          <div>
+            <button data="m5"><span>Контакты</span><img src="img/ArrowRight_2.svg"></button>
+            <div data="m5">
+              <div>
+              <!-- <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> -->
+            </div>
+            </div>
+          </div>
+          <div>
+            <button data="m6"><span>Техподдержка</span><img src="img/ArrowRight_2.svg"></button>
+            <div data="m6">
+              <div>
+              <!-- <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> 
+              <a href="">Ссылка</a> -->
+            </div>
+            </div>
+          </div>
+          <div>
+            <div class="LastContainer">
+              <a href="">8-999-999-99-99</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -580,11 +666,11 @@
 
         <div class="forWhat__inner">
           <div class="forHealthy healthy forBlock">
-            <p class="forHealthy-text forWhat__text-block">Для заботы о здоровье и теле</p>
+            <p class="forHealthy-text forWhat__text-block">Для заботы о&nbsp;здоровье и&nbsp;теле</p>
           </div>
 
           <div class="forWork work forBlock">
-            <p class="forWork-text forWhat__text-block">Для работы и быстрого выполнения задач</p>
+            <p class="forWork-text forWhat__text-block">Для работы и&nbsp;быстрого выполнения задач</p>
           </div>
 
           <div class="forMusic music forBlock">
@@ -592,7 +678,7 @@
           </div>
 
           <div class="forU u forBlock">
-            <p class="forU-text forWhat__text-block">Для вас и ваших творческих проектов</p>
+            <p class="forU-text forWhat__text-block">Для вас и&nbsp;ваших творческих проектов</p>
           </div>
         </div>
 
@@ -719,69 +805,71 @@
             </div>
           </div>
   
-          <div class="center-column">
-            <div class="center-column__header_w_main">
-              <div class="center-column__header">
-                <p class="center-column__header-text">
-                  Каталог
+          <div class="right-column_w_center-column">
+            <div class="center-column">
+              <div class="center-column__header_w_main">
+                <div class="center-column__header">
+                  <p class="center-column__header-text">
+                    Каталог
+                  </p>
+                </div>
+                <div class="center-column__main">
+                  <ul class="center-column__main-list">
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Смартфоны</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Планшеты</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Ноутбуки/Компьютеры</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">VR/Gaming</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Видео/Фото</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Наушники/Аудио</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Умные часы</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Dyson</a>
+                    </li>
+                    <li class="center-column__main-item">
+                      <a href="#" class="center-column__main-link">Аксессуары</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+    
+              <div class="center-column__footer">
+                <a href="#" class="center-column__footer-link">Разработка сайта</a>
+              </div>
+            </div>
+    
+            <div class="right-column">
+              <div class="right-column__header">
+                <p class="right-column__header-text">
+                  Навигация
                 </p>
               </div>
-              <div class="center-column__main">
-                <ul class="center-column__main-list">
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Смартфоны</a>
+              <div class="right-column__main">
+                <ul class="right-column__main-items">
+                  <li class="right-column__main-item">
+                    <a href="#" class="right-column__main-link">О компании</a>
                   </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Планшеты</a>
+                  <li class="right-column__main-item">
+                    <a href="#" class="right-column__main-link">Каталог</a>
                   </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Ноутбуки/Компьютеры</a>
-                  </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">VR/Gaming</a>
-                  </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Видео/Фото</a>
-                  </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Наушники/Аудио</a>
-                  </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Умные часы</a>
-                  </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Dyson</a>
-                  </li>
-                  <li class="center-column__main-item">
-                    <a href="#" class="center-column__main-link">Аксессуары</a>
+                  <li class="right-column__main-item">
+                    <a href="#" class="right-column__main-link">Контакты</a>
                   </li>
                 </ul>
               </div>
-            </div>
-  
-            <div class="center-column__footer">
-              <a href="#" class="center-column__footer-link">Разработка сайта</a>
-            </div>
-          </div>
-  
-          <div class="right-column">
-            <div class="right-column__header">
-              <p class="right-column__header-text">
-                Навигация
-              </p>
-            </div>
-            <div class="right-column__main">
-              <ul class="right-column__main-items">
-                <li class="right-column__main-item">
-                  <a href="#" class="right-column__main-link">О компании</a>
-                </li>
-                <li class="right-column__main-item">
-                  <a href="#" class="right-column__main-link">Каталог</a>
-                </li>
-                <li class="right-column__main-item">
-                  <a href="#" class="right-column__main-link">Контакты</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -840,4 +928,54 @@
 
     </footer>
   </body>
+  <script>
+    //ХЕДЕР
+const MenuButton=document.querySelector('#MenuButton')
+const Menu=document.querySelector('.Header-Menu_mobile_hidden')
+
+MenuButton.addEventListener('click',()=>{
+  if(Menu.getAttribute('style')==undefined){
+    Menu.setAttribute('style','transform: translateY(0px);')
+    MenuButton.querySelector('img').setAttribute('src','img/closeMenu.svg')
+    document.querySelector('header').setAttribute('style','border-radius: 0px;')
+    document.querySelector('body').setAttribute('style','overflow:hidden;')
+  }else{
+    Menu.removeAttribute('style')
+    MenuButton.querySelector('img').setAttribute('src','img/menu.svg')
+    document.querySelector('header').removeAttribute('style')
+    document.querySelector('body').removeAttribute('style')
+  }
+})
+
+Menu.querySelectorAll('button[data]').forEach(e=>{
+  e.addEventListener('click',()=>{
+    const data=e.getAttribute('data')
+    const UnderMenu=document.querySelectorAll(`[data=${data}]`)[1]
+    const height=UnderMenu.querySelector('div').clientHeight
+    if(UnderMenu.getAttribute('style')==undefined){
+      document.querySelectorAll('.Header-Menu_mobile_hidden [active]').forEach(e=>{
+        e.removeAttribute('active')
+        e.removeAttribute('style')
+      })
+      UnderMenu.setAttribute('style',`height:${height}px; margin-top:17px;`)
+      e.querySelector('img').setAttribute('style','transform:rotate(90deg);')
+      UnderMenu.setAttribute('active','')
+      e.querySelector('img').setAttribute('active','')
+    }else{
+      UnderMenu.removeAttribute('style')
+      e.querySelector('img').removeAttribute('style')
+    }
+  })
+})
+
+document.querySelectorAll('.LangContainer button').forEach(e=>{
+  e.addEventListener('click',()=>{
+    if(e.getAttribute('class')==undefined){
+      document.querySelector('.LangContainer .Active').removeAttribute('class')
+      e.setAttribute('class','Active')
+    }
+  })
+})
+//ХЕДЕР
+  </script>
 </html>

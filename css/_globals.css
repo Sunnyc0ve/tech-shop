@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: "SF Pro Display";
+    border: none;
+    background: none;
+
+    user-select: none;
+}
+
+main{
+    width: 1160px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+section{
+    margin-bottom: 150px;
+}
+
+li{
+    list-style: none;
+}
+
+
+
+body{
+    background: rgba(17, 14, 23, 1);
+    overflow-x: hidden;
+}
+
+button{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 0.6;
+    text-align: center;
+}
+
+
+h2{
+    font-size: 34px;
+    font-weight: 400;
+    color:#fff;
+}
+
+@media (max-width: 1200px) {
+    main {width: 1000px;}
+}
+
+@media (max-width: 1000px) {
+    main {width: 700px;}
+}
+
+@media (max-width: 700px) {
+    main {width: 360px;}
+}

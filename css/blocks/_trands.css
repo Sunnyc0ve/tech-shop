@@ -16,9 +16,13 @@
 }
 
 .TrandingProduct-image {
-  height: 260px;
-  width: 260px;
-  background: url("../img/tranding_products/tranding_product.png");
+  aspect-ratio: 1;
+  width: inherit;
+  background: url("../../img/tranding_products/tranding_product.png");
+  background-position: top;
+  background-repeat: no-repeat;
+
+  border-radius: inherit;
 
   display: flex;
   justify-content: end;
@@ -31,9 +35,9 @@
 .TrandingProduct-more,
 .TrandingProduct-buy {
   background-color: #110e17;
-  gap: 28px;
+  gap: 20px;
   width: 200px;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .TrandingProduct-buy {
@@ -123,6 +127,11 @@
   margin-bottom: 60px;
 }
 
+.TrandingProduct-buttons button {
+  display: flex;
+  justify-content: center;
+}
+
 .TrandingProducts {
   margin-bottom: 60px;
 }
@@ -141,7 +150,7 @@
   cursor: pointer;
 }
 
-.active {
+.TrandingProductsPages-sections .active {
   color: #f2f2f2;
   border-radius: 100px;
   border: 1px solid #f2f2f2;
@@ -151,7 +160,73 @@
   display: flex;
   gap: 7px;
 
-  justify-self: center;
+  justify-content: center;
 
   margin-bottom: 80px;
+}
+
+@media (max-width: 1200px) {
+  .TrandingProduct-card {
+    border-radius: 12px;
+    width: 230px;
+    height: 590px;
+  }
+
+  .TrandingProducts__container {
+    grid-gap: 27px;
+  }
+
+  .TrandingProduct-more,
+  .TrandingProduct-buy {
+    border-radius: 12px;
+  }
+
+  .TrandingProduct-more div,
+  .TrandingProduct-buy div {
+    border-radius: 10px;
+  }
+  .TrandingProducts-header {
+    font-size: 24px;
+  }
+
+  .TrandingProduct-image {
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .TrandingProduct-card {
+    width: 220px;
+    height: 575px;
+  }
+
+  .TrandingProducts__container {
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .TrandingProductsPages-sections {
+    margin-bottom: 45px;
+  }
+}
+@media (max-width: 700px) {
+  .TrandingProduct-card {
+    width: 360px;
+    height: 600px;
+  }
+  .TrandingProduct-image {
+    aspect-ratio: 1;
+    height: 240px;
+  }
+  .TrandingProduct-more,
+  .TrandingProduct-buy {
+    width: 310px;
+  }
+  .TrandingProducts__container {
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .TrandingProduct-image {
+    background-size: auto;
+  }
 }
