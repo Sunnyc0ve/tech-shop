@@ -18,18 +18,28 @@
     margin: 10px 0px 30px 0px;
 }
 
-.MainButton{
+.MainButton {
     border-radius: 20px;
-    background: #6E49BD;
-    color:#fff;
+    background: #6e49bd;
+    color: #fff;
     font-size: 14px;
     padding: 6px 6px 6px 40px;
     display: flex;
     align-items: center;
-    gap:15px;
-}
+    gap: 15px;
+  }
+  
+  .MainButton-SecElem {
+    border-radius: 15px;
+    background: #fff;
+    padding: 12px 10px;
+  }
+  
+  .MainButton-elem {
+    width: 100%;
+  }
 
-.MainButton div{
+.MainButton div:not(.MainButton-elem, .MainButton-SecElem){
     border-radius: 15px;
     background: #fff;
     padding: 15px 13px;

@@ -57,7 +57,7 @@
 }
 
 .Installment__inner button div {
-    background-color: #6649BD;
+    background-color: #6649BD !important;
 }
 
 .Installment__inner button div img {
