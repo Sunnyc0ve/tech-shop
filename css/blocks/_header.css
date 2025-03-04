@@ -124,11 +124,11 @@ l {
     display: none;
   }
 
-  .Header-Menu_mobile {
-    display: flex;
-    gap: 25px;
+  .HeaderContainer_mobile {
     width: 360px;
-    justify-content: end;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 10px 0px;
   }
 
   .HeaderContainer_mobile button img {
@@ -141,96 +141,5 @@ l {
 
   .HeaderContainer_mobile a {
     margin-right: 30px;
-  }
-
-  .Header-Menu_mobile_hidden {
-    transition: 0.5s ease-in-out;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    background: #110e17;
-    width: 100%;
-    top: 38px;
-    left: 0px;
-    padding: 25px 0px;
-    transform: translateY(-70vh);
-    overflow: scroll;
-    max-height: calc(100vh - 49px);
-  }
-
-  .Header-Menu_mobile_hidden > div {
-    width: 360px;
-  }
-
-  .Header-Menu_mobile_hidden > div::before {
-    content: "";
-    background: #353535;
-    width: 100%;
-    height: 1px;
-    display: block;
-    margin-bottom: 20px;
-  }
-
-  .Header-Menu_mobile_hidden > div > div:not(.LastContainer) {
-    height: 0px;
-    overflow: hidden;
-    transition: 0.5s ease-in-out;
-    margin-bottom: 15px;
-  }
-
-  .Header-Menu_mobile_hidden > div > div > div:not(.LangContainer) {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .Header-Menu_mobile_hidden button {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .Header-Menu_mobile_hidden a {
-    color: #fff;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 12px;
-  }
-
-  .Header-Menu_mobile_hidden button span {
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 12px;
-  }
-  .Header-Menu_mobile_hidden button img {
-    width: 17px;
-    transition: 0.5s ease;
-  }
-
-  .LastContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .LangContainer {
-    border: 1px solid #353535;
-    display: flex;
-    border-radius: 2px;
-  }
-
-  .LangContainer button {
-    color: #fff;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 12px;
-    padding: 8px 12px;
-  }
-
-  .LangContainer .Active {
-    background: #353535;
   }
 }
