@@ -79,6 +79,10 @@ l {
 }
 
 @media (max-width: 1200px) {
+  .Header-Menu_mobile {
+    display: block;
+  }
+
   header > div {
     width: 1000px;
   }
