@@ -164,6 +164,7 @@ l {
     transform: translateY(-70vh);
     overflow: scroll;
     max-height: calc(100vh - 49px);
+    z-index: 2;
   }
 
   .Header-Menu_mobile_hidden > div {
@@ -199,14 +200,8 @@ l {
     align-items: center;
   }
 
-  .Header-Menu_mobile_hidden a {
-    color: #fff;
-    font-weight: 300;
-    font-size: 12px;
-    line-height: 12px;
-  }
 
-  .Header-Menu_mobile_hidden button span {
+  .Header-Menu_mobile_hidden a {
     color: #fff;
     font-weight: 400;
     font-size: 16px;

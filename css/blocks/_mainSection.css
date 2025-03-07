@@ -1,5 +1,4 @@
 .MainSection{
-    background: url("../../img/Banner.png");
     background-position: center;
     height: 448px;
     width: 100%;
@@ -8,7 +7,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
+    position: relative;
     margin-bottom: 40px;
 }
 
@@ -27,6 +26,10 @@
     display: flex;
     align-items: center;
     gap: 15px;
+  }
+
+  .MainSection .MainButton{
+    width: 217px;
   }
   
   .MainButton-SecElem {
@@ -66,6 +69,40 @@
     font-size: 14px;
 }
 
+
+.MainSection .VideoContainer{
+    position: absolute;
+    width: 1160px;
+    height: 448px;
+    overflow: hidden;
+    border-radius: 20px;
+    z-index: -1;
+    left: 0px;
+    top: 0px;
+}
+
+.MainSection .VideoContainer video{
+    position: absolute;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .MainSection .VideoContainer{
+        width: 1000px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .MainSection .VideoContainer{
+        width: 700px;
+    }
+
+    .MainSection .VideoContainer video{
+        width: auto;
+        height: 100%;
+    }
+}
+
 @media (max-width: 700px) {
     .MainSection p {
         font-size: 16px;
@@ -75,6 +112,11 @@
     }
     .MainSection {
         border-radius: 10px;
-        background: url('../../img/Banner_mobile.png') center;
+    }
+
+    .MainSection .VideoContainer{
+        width: 360px;
+        display: flex;
+        justify-content: center;
     }
 }

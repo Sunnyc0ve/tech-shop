@@ -1,0 +1,12 @@
+.MainSection {
+    background: url("../../../img/CATALOG/Banner.png");
+    background-position: center;
+    background-size: 100% 100%;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 700px) {
+    .MainSection {
+        margin-bottom: 30px;
+    }
+}

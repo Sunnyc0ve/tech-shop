@@ -248,13 +248,23 @@ footer {
   .right-column_w_center-column {
     display: none;
   }
-  .left-column {
-    margin: auto;
+
+.footer__left-side{
+  width: 230px;
     display: flex;
-    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.left-column__main-text{
+  width: auto;
+}
+
+  .left-column {
     justify-content: start;
-    gap: 50px;
-    height: 300px;
+    gap: 30px;
+    height: 250px;
+    width: auto;
   }
   .footer__right-side {
     display: flex;

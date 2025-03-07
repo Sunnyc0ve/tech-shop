@@ -2,12 +2,8 @@
     background: url('../../img/banners/tradein.png');
     height: 180px;
     border-radius: 20px;
-
     display: flex;
     align-items: center;
-
-    user-select: none;
-
     margin-bottom: 75px;    
 }
 
